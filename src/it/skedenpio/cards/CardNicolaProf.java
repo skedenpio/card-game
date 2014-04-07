@@ -1,9 +1,9 @@
 package it.skedenpio.cards;
 
 
-public class CardNicola extends Card {
+public class CardNicolaProf extends Card {
 
-	public CardNicola() {
+	public CardNicolaProf() {
 		super("Pernacchia", "Vai avanti di una casella e perdi tutti i punti.. Prrrrrrr");
 	}
 
