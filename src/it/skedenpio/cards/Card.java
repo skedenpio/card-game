@@ -25,6 +25,10 @@ public abstract class Card {
 	protected void gainPoits(int points) {
 		Game.gainPoints(points); 
 	}
+	
+	protected void losePoints() {
+		Game.losePoints();
+	}
 
 	public String getName() {
 		return name;
