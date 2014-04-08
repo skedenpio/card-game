@@ -11,7 +11,8 @@ public class Deck {
 		new CardPesce(),
 		new CardMarcello(),
 		new CardPierluigi(),
-		new CardAda()
+		new CardAda(),
+		new CardDaniela()
 	};
 
 	public static Card getRandomCard() {
