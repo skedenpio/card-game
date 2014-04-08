@@ -11,14 +11,20 @@ public class Drawer {
 		
 		if (card != null) {
 			printCardMessage(card);
+			printPictures(card);
 		}
 		printPointsAndPosition();
 		printCardTop();
 		printCardCenter();
 		printCardBottom();
-		printArrow();		
+		printArrow();	
 		
 		System.out.print("\n\n\n\n\n\n");
+	}
+	
+	private static void printPictures(Card card){
+		//System.out.println("***************************");
+		card.pictures();
 	}
 	
 	private static void printCardMessage(Card card) {

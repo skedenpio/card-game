@@ -9,6 +9,7 @@ public class Start {
 		boolean isFinished = false;
 
 		Drawer.printGame(null);
+
 		
 		while(!isFinished) {
 			System.out.println("Premi un tasto per pescare una carta");
@@ -16,6 +17,7 @@ public class Start {
 			Card card = Deck.getRandomCard();
 			isFinished = Game.executeRound(card);
 			Drawer.printGame(card);
+
 		}
 		
 		System.out.println("Congratulazioni, hai terminato il gioco con " + Game.getPoints() + " punti!");
