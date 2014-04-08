@@ -30,6 +30,10 @@ public class Game {
 		Game.points += points;
 	}
 	
+	public static void losePoints() {
+		Game.points = 0;
+	}
+	
 	public static boolean executeRound(Card card) {
 		card.execute();
 		
