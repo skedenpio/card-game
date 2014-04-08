@@ -6,7 +6,7 @@ public class CardPierluigi extends Card
 {
 	public CardPierluigi()
 	{
-		super("Fortuna","Sei così fortunato che ti faccio tornare al punto di partenza e ovviamente non ti assegno punti");
+		super("Fortuna","Sei così  fortunato che ti faccio tornare al punto di partenza e ovviamente non ti assegno punti");
 	}
 	@Override
 	public void execute()
