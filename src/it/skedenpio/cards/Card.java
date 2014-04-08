@@ -8,11 +8,29 @@ public abstract class Card {
 	private String message = "";
 	
 	public abstract void execute();
-	
+		
 	protected Card(String name, String message) {
 		this.name = name;
 		this.message = message;
 	}
+	
+	public void pictures() {
+		
+		System.out.println("----------------------------");
+		System.out.println("--                        --");
+		System.out.println("--                        --");
+		System.out.println("--                        --");
+		System.out.println("--                        --");
+		System.out.println("--                        --");
+		System.out.println("--                        --");
+		System.out.println("--                        --");
+		System.out.println("--                        --");
+		System.out.println("--                        --");
+		System.out.println("--                        --");
+		System.out.println("----------------------------");
+		
+		
+	};	
 	
 	protected void goNext() {
 		Game.goNext();
