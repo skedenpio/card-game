@@ -4,10 +4,10 @@ import it.skedenpio.cards.*;
 
 public class Deck {
 	
-	private static Card[] cards = { 
+	private static Card[] cards = {
 		new CardGiuseppe(), 
 		new CardLaura(), 
-		new CardNicolaProf(),
+		//new CardNicolaProf(),
 		new CardPesce(),
 		new CardMarcello(),
 		new CardPierluigi(),

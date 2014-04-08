@@ -1,7 +1,5 @@
 package it.skedenpio.cards;
 
-import it.skedenpio.Game;
-
 public class CardLuca extends Card {
 
 	public CardLuca() {

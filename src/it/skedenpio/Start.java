@@ -11,7 +11,7 @@ public class Start {
 		Drawer.printGame(null);
 		
 		while(!isFinished) {
-			System.out.println("Premi un tasto per pescare una carta");
+			System.out.println("Premi INVIO per pescare una carta");
 			System.in.read();
 			Card card = Deck.getRandomCard();
 			isFinished = Game.executeRound(card);
