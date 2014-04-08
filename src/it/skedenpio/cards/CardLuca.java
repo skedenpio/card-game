@@ -11,13 +11,12 @@ public class CardLuca extends Card {
 	@Override
 	public void execute() {
 		goBack();
-		super.gainPoits(0);
 	}
 	
 	@Override
 	protected void goBack() {
-		Game.goBack();
-		Game.goBack();
+		super.goBack();
+		super.goBack();
 	}
 
 }
