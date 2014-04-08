@@ -1,0 +1,19 @@
+
+public class CardRoberto {
+
+	
+	public class CardRoberto extends Card {
+
+		public CardRoberto() {
+			super("WAJJO", "CORRI");
+		}
+
+		@Override
+		public void execute() {
+			super.goNext();
+			super.gainPoits(50);
+		}
+
+	}
+
+}
