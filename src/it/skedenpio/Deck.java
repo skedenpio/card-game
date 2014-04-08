@@ -4,7 +4,10 @@ import it.skedenpio.cards.*;
 
 public class Deck {
 	
-	private static Card[] cards = { new CardGiuseppe(), new CardLaura(), new CardNicolaProf() };
+
+	private static Card[] cards = { new CardGiuseppe(),  new CardDaniela() };
+	
+
 
 	public static Card getRandomCard() {
 		int index = (int) (Math.random()*cards.length);
